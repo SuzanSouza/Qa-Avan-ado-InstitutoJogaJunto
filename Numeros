@@ -1,0 +1,7 @@
+valor = int(input('Digite um valor: '))
+dobro = valor * 2
+triplo = valor * 3
+quadrado = valor ** 2
+quadrada = valor ** (1/2)
+cubica = valor ** (1/3)
+print(f'O dobro do Valor: {dobro}\nO triplo do valor: {triplo}\nO valor ao quadrado: {quadrado}\nA raiz Quadrada: {quadrada}\nA raiz cubica: {cubica}')
