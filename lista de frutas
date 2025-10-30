@@ -1,0 +1,14 @@
+# Lista de frutas
+frutas = ["maçã", "banana", "uva", "morango", "laranja"]
+
+# Lista de alergias (inicialmente vazia)
+alergias = []
+
+# Inserindo uma fruta da lista de frutas na lista de alergias
+alergias.append("morango")
+
+# Estrutura de repetição para verificar as frutas
+for fruta in frutas:
+    # Estrutura condicional para verificar se a fruta está na lista de alergias
+    if fruta in alergias:
+        print(f"Atenção! Você é alérgico(a) a {fruta}.")

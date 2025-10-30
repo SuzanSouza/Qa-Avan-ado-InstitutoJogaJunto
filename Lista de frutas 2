@@ -1,0 +1,18 @@
+# Lista de frutas
+frutas = ["maçã", "banana", "uva", "morango", "laranja"]
+
+# Lista de alergias (inicialmente vazia)
+alergias = []
+
+# Solicita ao usuário para informar as frutas que é alérgico
+print("Digite as frutas que você é alérgico(a). Digite 'fim' para encerrar:")
+while True:
+    fruta_alergica = input("Fruta: ").lower()
+    if fruta_alergica == "fim":
+        break
+    alergias.append(fruta_alergica)
+
+# Verifica cada fruta da lista
+for fruta in frutas:
+    if fruta in alergias:
+        print(f"Atenção! Você é alérgico(a) a {fruta}.")
