@@ -1,0 +1,26 @@
+from faker import Faker
+import pandas as pd
+
+# Criar o gerador de dados em português do Brasil
+fake = Faker('pt_BR')
+
+# Função para criar uma persona
+def criar_persona():
+    return {
+        "Nome": fake.name(),
+        "Cidade": fake.city(),
+        "Idade": fake.random_int(min=18, max=80)
+    }
+
+# Gerar várias personas
+quantidade = 10  # número de personas
+personas = [criar_persona() for _ in range(quantidade)]
+
+# Criar DataFrame com os dados
+df = pd.DataFrame(personas)
+
+# Salvar em um arquivo CSV
+df.to_csv("personas.csv", index=False, encoding="utf-8")
+
+print("✅ Arquivo 'personas.csv' criado com sucesso!")
+print(df)

@@ -9,6 +9,6 @@ alergias.append("morango")
 
 # Estrutura de repetição para verificar as frutas
 for fruta in frutas:
-    # Estrutura condicional para verificar se a fruta está na lista de alergias
+    # Estrutura para verificar se a fruta está na lista de alergias
     if fruta in alergias:
         print(f"Atenção! Você é alérgico(a) a {fruta}.")

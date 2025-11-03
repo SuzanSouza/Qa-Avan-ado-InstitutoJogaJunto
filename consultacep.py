@@ -2,7 +2,7 @@ import requests
  
 integrantes = {
     "Dione" : "11633422",
-    "Pacheco": "116330010",
+    "Pacheco": "11633010",
     "Cecilia": "04013001"
 }
  

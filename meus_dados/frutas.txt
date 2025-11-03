@@ -1,0 +1,6 @@
+ Lista de Frutas:
+- maçã
+- banana
+- uva
+- morango
+- laranja
