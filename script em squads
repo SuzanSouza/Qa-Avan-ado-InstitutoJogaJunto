@@ -22,5 +22,5 @@ df = pd.DataFrame(personas)
 # Salvar em um arquivo CSV
 df.to_csv("personas.csv", index=False, encoding="utf-8")
 
-print("✅ Arquivo 'personas.csv' criado com sucesso!")
+print("Arquivo 'personas.csv' criado com sucesso!")
 print(df)
